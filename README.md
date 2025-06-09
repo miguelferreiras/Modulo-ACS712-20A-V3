@@ -2,6 +2,10 @@
 Modulo  ACS712 para integração no ESPHome
 Esquema, PCB e código Yaml.
 
+
+<img src="images/ACS712_3D_Top.png" alt="PCB ACS712" width="300" height="343">
+<img src="images/ACS712_medidas.png" alt="Dimenções" width="300" height="308">
+
 O ACS712 é amplamente utilizado em diversas aplicações, incluindo:
 Automação industrial: Monitorização de correntes de motores, fontes de alimentação e proteção contra sobrecarga.
 Eletrônica de consumo: Monitorização de corrente de baterias em dispositivos portáteis e monitoramento de correntes em adaptadores de energia.
