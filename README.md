@@ -1,5 +1,5 @@
 # Modulo-ACS712-20A-V3
-Modulo  ACS712 para ESP32 - integração no ESPHome
+Modulo  ACS712 para integração no ESPHome
 Esquema, PCB e código Yaml para integração no ESPHome.
 
 
