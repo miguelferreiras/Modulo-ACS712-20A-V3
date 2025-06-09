@@ -1,0 +1,23 @@
+[...]
+sensor:
+  - platform: acs712
+    pin: 0
+    voltage: 3.3
+    adc_bits: 1023
+    mv_per_amp: 66
+    line_voltage: 220
+    noisemV: 43
+    current_sensor:
+      name: "Amperes"
+    power_sensor:
+      id: power
+      name: "Watts"
+      
+  # Total daily energy sensor
+  - platform: total_daily_energy
+    name: KWh
+    power_id: power
+    filters:
+      # Multiplication factor from W to kW is 0.001
+      - multiply: 0.001
+    unit_of_measurement: kWh
